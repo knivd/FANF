@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="FANF" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/FANF" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/FANF" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-fexpensive-optimizations" />
+					<Add option="-O3" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-DUSE_FGETS" />
+		</Compiler>
+		<Unit filename="../generic/atoms.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../generic/atoms.h" />
+		<Unit filename="../generic/fanf.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../generic/fanf.h" />
+		<Unit filename="../generic/memory.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../generic/memory.h" />
+		<Unit filename="../generic/shellw.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../generic/shellw.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="platform.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="platform.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

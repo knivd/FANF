@@ -1,0 +1,109 @@
+# depslib dependency file v1.0
+1405825420 source:d:\work\fanf\fanf.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<math.h>
+	<setjmp.h>
+	<conio.h>
+	"fanf.h"
+	"memory.h"
+	"atoms.h"
+
+1405835104 d:\work\fanf\fanf.h
+	"atoms.h"
+
+1404906420 source:d:\work\fanf\fvm.c
+	"fvm.h"
+	"fanf.h"
+	"memory.h"
+	"atoms.h"
+
+1404907183 d:\work\fanf\fvm.h
+
+1404354104 source:d:\work\fanf\main.c
+	<stdio.h>
+	<stdlib.h>
+	"fanf.h"
+
+1405835188 source:d:\work\fanf\atoms.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<math.h>
+	"atoms.h"
+	"memory.h"
+	"fanf.h"
+
+1405729002 d:\work\fanf\atoms.h
+	"memory.h"
+
+1405817364 d:\work\fanf\memory.h
+
+1405734754 source:d:\work\fanf\memory.c
+	<string.h>
+	"memory.h"
+	"fanf.h"
+
+1406086812 source:d:\work\fanf\generic\main.c
+	"fanf.h"
+
+1408747191 d:\work\fanf\generic\fanf.h
+	<stdio.h>
+	<setjmp.h>
+	"atoms.h"
+
+1408569603 d:\work\fanf\generic\atoms.h
+	"memory.h"
+
+1407458028 d:\work\fanf\generic\memory.h
+
+1407465253 source:d:\work\fanf\generic\memory.c
+	<string.h>
+	"memory.h"
+	"fanf.h"
+
+1408569573 source:d:\work\fanf\generic\atoms.c
+	<conio.h>
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<math.h>
+	"atoms.h"
+	"memory.h"
+	"fanf.h"
+	"shellw.h"
+
+1408747176 source:d:\work\fanf\generic\fanf.c
+	<conio.h>
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<math.h>
+	"fanf.h"
+	"memory.h"
+	"atoms.h"
+	"shellw.h"
+
+1407201791 d:\work\fanf\generic\shellw.h
+
+1408343762 source:d:\work\fanf\generic\shellw.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"shellw.h"
+	"fanf.h"
+	"memory.h"
+	"atoms.h"
+
+1407213659 source:d:\work\fanf\pc\platform.c
+	<stdio.h>
+	"platform.h"
+	"..\generic\fanf.h"
+
+1406859460 d:\work\fanf\pc\platform.h
+
+1406697259 source:d:\work\fanf\pc\main.c
+	"platform.h"
+	"..\generic\fanf.h"
+

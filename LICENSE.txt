@@ -1,0 +1,10 @@
+This source code and the result of its compilation can be FREELY distributed, modified and used in personal and 
+commercial products without any restriction other than keeping the COPYRIGHT definition intact (the user can
+still put their own text in addition to it).
+
+No warranty or promise of support is offered, any other than the voluntarily provided by the author, but without
+any obligation. The user should be aware of potential loss or damage caused by bugs or incorrect operation of the
+code and accepts the risks of its use by own will and without any liability for the author.
+
+Konstantin Dimitrov
+knivd@me.com
