@@ -11,6 +11,14 @@ Hello:
 "Hello World!_:" cout ;
 
 
+'! 'Blinky' on Microkite (LED on port P31/A7)
+Blinky:
+31 "PMO" portcfg
+31 2400 portdiv
+31 $aaaaaaaa portwr
+;
+
+
 '! print the sum of two numbers
 Sum:
 "Enter a number: " cout cin asnum
